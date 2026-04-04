@@ -7,7 +7,41 @@
     <title>Toolbox - All-in-One Online Utilities</title>
     <meta name="description"
         content="A collection of fast, free, and simple online tools for everyday tasks. No login required.">
-    <link rel="stylesheet" href="css/global.css">
+    
+    <!-- Critical CSS for Instant First Paint -->
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-hover: #4f46e5;
+            --bg-main: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --radius-standard: 12px;
+            --container-max: 1200px;
+            --container-padding: clamp(16px, 4vw, 32px);
+            --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+            --font-h1: clamp(24px, 4vw, 42px);
+            --font-body: clamp(15px, 1.2vw, 17px);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background-color: var(--bg-main); color: var(--text-main); line-height: 1.6; font-size: var(--font-body); }
+        .container { width: 100%; max-width: var(--container-max); margin: 0 auto; padding: 0 var(--container-padding); }
+        .nav-header { background-color: var(--bg-card); border-bottom: 1px solid var(--border); padding: 1rem 0; position: sticky; top: 0; z-index: 100; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+        .logo span { color: var(--text-main); }
+        .section { padding: clamp(40px, 6vw, 80px) 0; }
+        h1 { font-size: var(--font-h1); font-weight: 800; line-height: 1.1; margin-bottom: 1.5rem; }
+        .text-center { text-align: center; }
+        .text-muted { color: var(--text-muted); }
+        #app { min-height: 500px; }
+    </style>
+
+    <!-- Non-blocking Link Loading -->
+    <link rel="stylesheet" href="css/global.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/global.css"></noscript>
 </head>
 
 <body>
@@ -260,7 +294,7 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>

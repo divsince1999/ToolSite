@@ -80,6 +80,10 @@ ul {
     padding-right: var(--container-padding);
 }
 
+#app {
+    min-height: 500px;
+}
+
 .section {
     padding: var(--section-padding) 0;
 }
