@@ -168,11 +168,6 @@ export async function renderToolLayout(slug, data, toolsData) {
             if (!rel) return '';
             return `
             <a href="${relSlug}.html" class="card">
-                <div style="margin-bottom: 1rem; color: var(--primary);">
-                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: block;">
-                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
-                    </svg>
-                </div>
                 <h3>${rel.title}</h3>
                 <p class="text-muted mt-sm">${rel.description}</p>
                 <div class="mt-md" style="color: var(--primary); font-weight: 600; font-size: 0.9rem;">Try Tool &rarr;</div>
