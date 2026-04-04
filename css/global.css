@@ -2,7 +2,8 @@
 
 :root {
     /* Color Palette - Modern & Premium */
-    --primary: #6366f1;
+    /* --primary: #6366f1; */
+    --primary: #4e50d2;
     --primary-hover: #4f46e5;
     --secondary: #64748b;
     --bg-main: #f8fafc;
@@ -221,6 +222,7 @@ p {
 
 .btn-primary {
     background-color: var(--primary);
+    /* background-color: #111250; */
     color: white;
     box-shadow: 0 4px 6px -1px rgba(99, 102, 241, 0.2);
     padding: 0.85rem 2rem;
@@ -331,9 +333,9 @@ input[type='number']:focus,
 /* Footer */
 .footer {
     padding: var(--section-padding) 0;
-    border-top: 1px solid var(--border);
+    /* border-top: 1px solid var(--border); */
     background-color: var(--bg-card);
-    margin-top: var(--section-padding);
+    /* margin-top: var(--section-padding); */
 }
 
 /* Try Related Tools Section Hook */
@@ -351,7 +353,7 @@ input[type='number']:focus,
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--text-muted);
-    background: #eff6ff;
+    background: #fff;
     padding: 0.35rem 0.75rem;
     border-radius: 99px;
     border: 1px solid #dbeafe;
