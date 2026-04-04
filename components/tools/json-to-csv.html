@@ -1,0 +1,22 @@
+<div class="tool-area-group">
+    <div class="input-group">
+        <label for="json-input" class="label">Input JSON</label>
+        <textarea id="json-input" class="textarea"
+            placeholder="[ { 'id': 1, 'name': 'John' }, { 'id': 2, 'name': 'Jane' } ]"></textarea>
+    </div>
+
+    <div class="btn-wrapper mt-md">
+        <button class="btn btn-primary" id="btn-convert">Convert to CSV</button>
+    </div>
+
+    <div class="input-group mt-lg">
+        <label for="csv-output" class="label">CSV Result</label>
+        <textarea id="csv-output" class="textarea" readonly
+            placeholder="Result will appear here..."></textarea>
+    </div>
+
+    <div class="btn-wrapper mt-md">
+        <button class="btn btn-primary" id="btn-copy">Copy CSV</button>
+        <button class="btn btn-outline" id="btn-clear">Clear</button>
+    </div>
+</div>

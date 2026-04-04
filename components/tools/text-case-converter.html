@@ -1,0 +1,28 @@
+<div class="tool-area-group">
+    <div class="input-group">
+        <label for="input-text" class="label">Input Text</label>
+        <textarea id="input-text" class="textarea"
+            placeholder="Type or paste your text here to convert..."></textarea>
+    </div>
+
+    <div id="tool-actions" class="btn-wrapper">
+        <button class="btn btn-primary" id="btn-upper">UPPER CASE</button>
+        <button class="btn btn-primary" id="btn-lower">lower case</button>
+        <button class="btn btn-primary" id="btn-sentence">Sentence case</button>
+        <button class="btn btn-primary" id="btn-capitalize">Capitalize Case</button>
+        <button class="btn btn-outline" id="btn-clear">Clear</button>
+    </div>
+</div>
+
+<!-- Results Section -->
+<div id="results-panel" style="display: none;">
+    <div class="card" style="box-shadow: var(--shadow-lg);">
+        <h3 class="mb-sm">Result</h3>
+        <div id="output-text"
+            style="white-space: pre-wrap; word-break: break-all; min-height: 120px; padding: 1.5rem; background: var(--bg-main); border-radius: 8px; border: 1px solid var(--border); margin-bottom: 1.5rem;">
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn btn-primary" id="btn-copy">Copy to Clipboard</button>
+        </div>
+    </div>
+</div>

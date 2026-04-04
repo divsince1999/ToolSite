@@ -1,0 +1,25 @@
+<div class="tool-area-group">
+    <div class="input-group">
+        <label for="hex-input" class="label">HEX Color Code</label>
+        <input type="text" id="hex-input" class="input-field" placeholder="#6366f1" maxlength="7">
+    </div>
+
+    <!-- Color Preview Section -->
+    <div class="color-preview-container" style="display: flex; align-items: center; gap: 1rem; margin: 1.5rem 0; padding: 1rem; background: #f1f5f9; border-radius: 8px;">
+        <div id="color-box" style="width: 60px; height: 60px; border-radius: 8px; border: 2px solid #fff; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); background-color: #6366f1;"></div>
+        <div>
+            <span class="generator-label" style="margin-bottom: 0.25rem;">Live Preview</span>
+            <span id="rgb-preview-text" style="font-family: monospace; font-size: 0.9rem; color: #64748b;">rgb(99, 102, 241)</span>
+        </div>
+    </div>
+
+    <div class="input-group">
+        <label for="rgb-output" class="label">RGB Result</label>
+        <input type="text" id="rgb-output" class="input-field" readonly placeholder="Resulting RGB...">
+    </div>
+
+    <div class="btn-wrapper mt-md">
+        <button class="btn btn-primary" id="btn-copy">Copy RGB</button>
+        <button class="btn btn-outline" id="btn-clear">Clear</button>
+    </div>
+</div>

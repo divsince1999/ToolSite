@@ -1,0 +1,25 @@
+<div class="tool-area-group">
+    <div class="input-group">
+        <label for="input-text" class="label">Input Text</label>
+        <textarea id="input-text" class="textarea"
+            placeholder="Paste or type your text here to clean..."></textarea>
+    </div>
+
+    <div id="tool-actions" class="btn-wrapper">
+        <button class="btn btn-primary" id="btn-remove-spaces">Remove Extra Spaces</button>
+        <button class="btn btn-outline" id="btn-copy">Copy Text</button>
+        <button class="btn btn-outline" id="btn-clear">Clear</button>
+    </div>
+</div>
+
+<div id="results-panel" style="display: none;">
+    <div class="card" style="box-shadow: var(--shadow-lg);">
+        <h3 class="mb-sm">Cleaned Result</h3>
+        <div id="output-text"
+            style="white-space: pre-wrap; word-break: break-all; min-height: 120px; padding: 1.5rem; background: var(--bg-main); border-radius: 8px; border: 1px solid var(--border); margin-bottom: 1.5rem;">
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn btn-primary" id="btn-copy-result">Copy to Clipboard</button>
+        </div>
+    </div>
+</div>

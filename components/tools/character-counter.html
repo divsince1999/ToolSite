@@ -1,0 +1,43 @@
+<div class="tool-area-group">
+    <div class="input-group">
+        <label for="input-text" class="label">Input Text</label>
+        <textarea id="input-text" class="textarea" placeholder="Type or paste your text here..."
+            autofocus style="min-height: 200px;"></textarea>
+    </div>
+
+    <div class="stat-grid">
+        <div class="stat-card">
+            <span class="stat-value" id="char-count">0</span>
+            <span class="stat-label">Characters</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="char-no-space-count">0</span>
+            <span class="stat-label">Chars (no spaces)</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="word-count">0</span>
+            <span class="stat-label">Words</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="sentence-count">0</span>
+            <span class="stat-label">Sentences</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="line-count">0</span>
+            <span class="stat-label">Lines</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value" id="paragraph-count">0</span>
+            <span class="stat-label">Paragraphs</span>
+        </div>
+        <div class="stat-card" style="grid-column: 1 / -1;">
+            <span class="stat-value" id="reading-time">0 min</span>
+            <span class="stat-label">Estimated Reading Time</span>
+        </div>
+    </div>
+
+    <div id="tool-actions" class="btn-wrapper mt-lg">
+        <button class="btn btn-primary" id="btn-copy">Copy Text</button>
+        <button class="btn btn-outline" id="btn-clear">Clear</button>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="tool-area-group">
+    <div class="settings-header mb-md">
+        <h3 class="mb-sm">Set Number Range</h3>
+        <p class="text-muted" style="font-size: 0.9rem;">Choose the minimum and maximum boundaries.</p>
+    </div>
+
+    <div class="input-row-flex">
+        <div class="input-group">
+            <label for="min-num" class="label">Min Number</label>
+            <input type="number" id="min-num" class="input-field" value="1">
+        </div>
+        <div class="input-group">
+            <label for="max-num" class="label">Max Number</label>
+            <input type="number" id="max-num" class="input-field" value="100">
+        </div>
+    </div>
+
+    <!-- Output Section -->
+    <div class="generator-output-container mt-lg">
+        <span class="generator-label">Random Result</span>
+        <div id="number-output" class="generator-value">?</div>
+    </div>
+
+    <div class="btn-wrapper mt-lg">
+        <button class="btn btn-primary" id="btn-generate">
+            Generate Number
+        </button>
+        <button class="btn btn-outline" id="btn-copy" style="min-width: 151px;">
+            Copy Result
+        </button>
+    </div>
+</div>

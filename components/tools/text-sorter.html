@@ -1,0 +1,38 @@
+<div class="tool-area-group">
+    <div class="input-group">
+        <label for="input-text" class="label">Input Text (Lines)</label>
+        <textarea id="input-text" class="textarea"
+            placeholder="Paste or type lines of text here... Each line is a separate item." style="min-height: 200px;"></textarea>
+    </div>
+
+    <div class="options-group mb-md">
+        <label class="checkbox-container">
+            <input type="checkbox" id="ignore-case">
+            <span class="checkmark"></span>
+            Ignore Case
+        </label>
+    </div>
+
+    <div class="tool-actions-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 0.5rem;">
+        <button class="btn btn-primary" id="btn-sort-az">Sort A &rarr; Z</button>
+        <button class="btn btn-primary" id="btn-sort-za">Sort Z &rarr; A</button>
+        <button class="btn btn-primary" id="btn-sort-num">Sort Numbers</button>
+        <button class="btn btn-primary" id="btn-reverse">Reverse Order</button>
+        <button class="btn btn-primary" id="btn-unique">Remove Duplicates</button>
+    </div>
+
+    <div id="tool-actions" class="btn-wrapper mt-lg">
+        <button class="btn btn-outline" id="btn-clear">Clear All</button>
+    </div>
+
+    <div class="output-group mt-lg">
+        <div class="input-group">
+            <label for="output-text" class="label">Sorted Result</label>
+            <textarea id="output-text" class="textarea" readonly
+                placeholder="Result will appear here..." style="min-height: 200px;"></textarea>
+        </div>
+        <div class="btn-wrapper mt-md">
+            <button class="btn btn-primary" id="btn-copy">Copy Result</button>
+        </div>
+    </div>
+</div>

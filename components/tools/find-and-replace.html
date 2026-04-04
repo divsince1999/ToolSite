@@ -1,0 +1,39 @@
+<div class="tool-area-group">
+    <div class="input-group">
+        <label for="input-text" class="label">Input Text</label>
+        <textarea id="input-text" class="textarea"
+            placeholder="Paste or type your text here..."></textarea>
+    </div>
+
+    <div class="controls-grid">
+        <div class="control-item">
+            <label for="find-text" class="label">Find Text</label>
+            <input type="text" id="find-text" class="input-field" placeholder="Word to find...">
+        </div>
+        <div class="control-item">
+            <label for="replace-text" class="label">Replace With</label>
+            <input type="text" id="replace-text" class="input-field" placeholder="New word...">
+        </div>
+    </div>
+
+    <div class="options-row">
+        <input type="checkbox" id="match-case" class="checkbox-input">
+        <label for="match-case" class="checkbox-label">Match Case</label>
+    </div>
+
+    <div class="btn-wrapper">
+        <button class="btn btn-primary" id="btn-replace">Replace All</button>
+        <button class="btn btn-outline" id="btn-clear">Clear All</button>
+    </div>
+
+    <div class="output-area">
+        <div class="input-group">
+            <label for="output-text" class="label">Updated Result</label>
+            <textarea id="output-text" class="textarea" readonly
+                placeholder="Updated text will appear here..."></textarea>
+        </div>
+        <div class="btn-wrapper mt-md">
+            <button class="btn btn-primary" id="btn-copy">Copy Result</button>
+        </div>
+    </div>
+</div>
