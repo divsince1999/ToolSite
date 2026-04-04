@@ -7,7 +7,36 @@
     <title>Toolbox - All-in-One Online Utilities</title>
     <meta name="description"
         content="A collection of fast, free, and simple online tools for everyday tasks. No login required.">
-    <link rel="stylesheet" href="css/global.css">
+    <!-- Preconnect to Font Servers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Non-blocking Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Critical CSS for Instant First Paint -->
+    <style>
+        :root {
+            --primary: #4e50d2;
+            --bg-main: #f8fafc;
+            --bg-card: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #323840;
+            --border: #e2e8f0;
+            --container-max: 1200px;
+            --container-padding: clamp(16px, 4vw, 32px);
+            --font-body: clamp(15px, 1.2vw, 17px);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background-color: var(--bg-main); color: var(--text-main); line-height: 1.6; font-size: var(--font-body); }
+        .container { width: 100%; max-width: var(--container-max); margin: 0 auto; padding: 0 var(--container-padding); }
+        .nav-header { background-color: var(--bg-card); border-bottom: 1px solid var(--border); padding: 1rem 0; position: sticky; top: 0; z-index: 100; display: flex; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary); text-decoration: none; }
+        .logo span { color: var(--text-main); }
+    </style>
+
+    <!-- Non-blocking Link Loading for Global CSS -->
+    <link rel="stylesheet" href="css/global.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/global.css"></noscript>
 </head>
 
 <body>
