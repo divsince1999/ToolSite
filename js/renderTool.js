@@ -137,7 +137,7 @@ export async function renderToolLayout(slug, data, toolsData) {
     // 4. Fetch/Cache UI Template
     let uiHtml = '';
     const cacheKey = `${slug}-${CACHE_VERSION}`;
-    
+
     if (uiCache[cacheKey]) {
         uiHtml = uiCache[cacheKey];
     } else {
@@ -170,7 +170,7 @@ export async function renderToolLayout(slug, data, toolsData) {
             <a href="${relSlug}.html" class="card">
                 <h3>${rel.title}</h3>
                 <p class="text-muted mt-sm">${rel.description}</p>
-                <div class="mt-md" style="color: var(--primary); font-weight: 600; font-size: 0.9rem;">Try Tool &rarr;</div>
+                <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">Try Tool &rarr;</div>
             </a>`;
         }).join('');
         relatedHtml = `
