@@ -170,16 +170,16 @@ export async function renderToolLayout(slug, data, toolsData) {
             <a href="${relSlug}.html" class="card">
                 <h3>${rel.title}</h3>
                 <p class="text-muted mt-sm">${rel.description}</p>
-                <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">Try Tool &rarr;</div>
+                <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">Open ${rel.title} &rarr;</div>
             </a>`;
         }).join('');
         relatedHtml = `
-        <section class="section related-section">
+        <nav class="section related-section" aria-label="Related Tools">
             <div class="container">
-                <h2 class="text-center mb-lg">Try Related Tools</h2>
+                <h2 class="text-center mb-lg">Related Tools</h2>
                 <div class="tool-grid">${cards}</div>
             </div>
-        </section>`;
+        </nav>`;
     }
 
     // 6. Build SEO/About section
@@ -195,7 +195,18 @@ export async function renderToolLayout(slug, data, toolsData) {
         </section>`;
 
     // 7. Mount to App root
+    let categoryName = data.category || 'Utilities';
+    let breadcrumbHtml = `
+        <nav aria-label="breadcrumb" class="container mt-md" style="margin-top: 1rem;">
+            <p class="text-muted" style="font-size: 0.9rem;">
+                <a href="../index.html" style="color: var(--primary); text-decoration: none;">Home</a> > 
+                ${categoryName} > 
+                <strong>${data.title}</strong>
+            </p>
+        </nav>`;
+
     appRoot.innerHTML = `
+        ${breadcrumbHtml}
         <section class="section pb-0">
             <div class="container text-center">
                 <div class="content-readable">

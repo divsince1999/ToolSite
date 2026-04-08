@@ -48,4 +48,38 @@ const toolsData = {
     'csv-to-json': csvToJson
 };
 
+const categoryMap = {
+    'Text Tools': ['word-counter', 'character-counter', 'remove-extra-spaces', 'find-and-replace', 'text-case-converter', 'remove-line-breaks', 'text-sorter', 'text-reverser', 'lorem-ipsum'],
+    'Developer Tools': ['base64-encoder-decoder', 'url-encoder-decoder', 'slug-generator', 'json-to-csv', 'csv-to-json', 'text-to-binary', 'binary-to-text', 'hex-to-rgb', 'random-string-generator', 'random-number-generator', 'password-generator']
+};
+
+// Map Categories and Ensure Automated Circular Back-Linking
+Object.keys(toolsData).forEach(slug => {
+    const tool = toolsData[slug];
+    
+    // Assign Category for Breadcrumbs
+    for (const [category, slugs] of Object.entries(categoryMap)) {
+        if (slugs.includes(slug)) {
+            tool.category = category;
+            break;
+        }
+    }
+
+    // Process Outbound Links to ensure symmetrical related tools
+    if (tool.relatedTools && Array.isArray(tool.relatedTools)) {
+        tool.relatedTools.forEach(relSlug => {
+            const relTool = toolsData[relSlug];
+            if (relTool) {
+                if (!relTool.relatedTools) {
+                    relTool.relatedTools = [];
+                }
+                // If Target doesn't link back to Source, add it!
+                if (!relTool.relatedTools.includes(slug)) {
+                    relTool.relatedTools.push(slug);
+                }
+            }
+        });
+    }
+});
+
 export default toolsData;
