@@ -2,7 +2,7 @@ export default {
     title: 'Text to Binary Converter',
     shortName: 'Text to Binary',
     seoTitle: 'Text to Binary Converter - Online Translator',
-    seoDescription: 'Convert plain text into binary code instantly. Free, fast, and simple online text to binary translation tool for developers.',
+    seoDescription: 'Convert plain text into binary code instantly. Free, fast, and simple online text to binary translation tool for developers. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Convert plain text into binary code instantly. Free, fast, and simple online text to binary translation tool.',
     content: {
         howTo: [

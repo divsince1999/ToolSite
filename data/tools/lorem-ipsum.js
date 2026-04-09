@@ -2,7 +2,7 @@ export default {
     title: 'Lorem Ipsum Generator',
     shortName: 'Lorem Ipsum',
     seoTitle: 'Lorem Ipsum Generator - Pro Placeholder Text',
-    seoDescription: 'Generate placeholder text instantly for designs and layouts. Customizable length and structure for designers and web developers.',
+    seoDescription: 'Generate placeholder text instantly for designs and layouts. Customizable length and structure for designers and web developers. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Generate placeholder text instantly for designs, layouts, and content testing with customizable length and structure.',
     content: {
         howTo: [

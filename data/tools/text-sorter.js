@@ -2,7 +2,7 @@ export default {
     title: 'Text Sorter',
     shortName: 'Text Sorter',
     seoTitle: 'Text Sorter - Alphabetize and Organize Lists',
-    seoDescription: 'Sort lines of text alphabetically or numerically instantly. Clean and organize your data with our free online text sorter.',
+    seoDescription: 'Sort lines of text alphabetically or numerically instantly. Clean and organize your data with our free online text sorter. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Sort lines of text alphabetically, numerically, or remove duplicates instantly with our free online text sorter.',
     content: {
         howTo: [

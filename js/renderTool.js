@@ -223,6 +223,11 @@ export async function renderToolLayout(slug, data, toolsData) {
                     <div id="tool-container-${slug}" class="tool-main-container">
                         ${uiHtml}
                     </div>
+                    <!-- Privacy Badge -->
+                    <div style="margin-top: 1rem; padding: 0.75rem 1rem; background: rgba(99,102,241,0.06); border: 1px solid rgba(99,102,241,0.2); border-radius: 8px; display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; color: var(--text-muted);">
+                        <span style="font-size: 1.1rem;">🔒</span>
+                        <span><strong style="color: var(--text-main);">Privacy Guarantee:</strong> Your data is processed locally and never leaves your device. No data is saved or sent to any server. <a href="../privacy.html" style="color: var(--primary); text-decoration: none;">Learn more</a></span>
+                    </div>
                 </div>
             </div>
         </section>

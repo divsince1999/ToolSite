@@ -2,7 +2,7 @@ export default {
     title: 'Character Counter',
     shortName: 'Character Counter',
     seoTitle: 'Character Counter - Accurate Text Length Analysis',
-    seoDescription: 'Count characters and words instantly with our free online tool. Perfect for social media, SEO, and academic writing limits.',
+    seoDescription: 'Count characters and words instantly with our free online tool. Perfect for social media, SEO, and academic writing limits. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Count characters in your text instantly, including spaces and without spaces, for accurate writing and SEO limits.',
     content: {
         howTo: [

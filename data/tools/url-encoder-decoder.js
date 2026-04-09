@@ -2,7 +2,7 @@ export default {
     title: 'URL Encoder / Decoder',
     shortName: 'URL Tool',
     seoTitle: 'URL Encoder/Decoder - Secure Web Link Conversion',
-    seoDescription: 'Safely encode and decode URLs to transmit data across the web. Free online tool for developers and SEO professionals.',
+    seoDescription: 'Safely encode and decode URLs to transmit data across the web. Free online tool for developers and SEO professionals. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Encode and decode URLs to safely transmit data over the internet without errors.',
     content: {
         howTo: [

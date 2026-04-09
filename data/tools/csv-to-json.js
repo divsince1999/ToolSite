@@ -2,7 +2,7 @@ export default {
     title: 'CSV to JSON Converter',
     shortName: 'CSV to JSON',
     seoTitle: 'CSV to JSON Converter - Modern Data Formatting',
-    seoDescription: 'Convert CSV text into JSON format instantly. Clean, fast, and easy online CSV to JSON translator for web developers.',
+    seoDescription: 'Convert CSV text into JSON format instantly. Clean, fast, and easy online CSV to JSON translator for web developers. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Convert CSV (Comma Separated Values) text into JSON format instantly. Clean, fast, and easy online CSV to JSON translator.',
     content: {
         howTo: [

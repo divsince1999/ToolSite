@@ -2,7 +2,7 @@ export default {
     title: 'JSON to CSV Converter',
     shortName: 'JSON to CSV',
     seoTitle: 'JSON to CSV Converter - Data Migration Tool',
-    seoDescription: 'Convert JSON data into CSV format instantly. Free online JSON to CSV translator for data migration and spreadsheet analysis.',
+    seoDescription: 'Convert JSON data into CSV format instantly. Free online JSON to CSV translator for data migration and spreadsheet analysis. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Convert JSON data into CSV format instantly. Free online JSON to CSV translator for data migration and spreadsheet analysis.',
     content: {
         howTo: [

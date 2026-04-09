@@ -2,7 +2,7 @@ export default {
     title: 'Base64 Encoder / Decoder',
     shortName: 'Base64 Tool',
     seoTitle: 'Base64 Encoder/Decoder - Secure Online Text Conversion',
-    seoDescription: 'Encode and decode text to Base64 format instantly. Secure, fast, and free online tool for developers and data processing.',
+    seoDescription: 'Encode and decode text to Base64 format instantly. Secure, fast, and free online tool for developers and data processing. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Encode and decode Base64 data instantly for secure data transmission and web development.',
     content: {
         howTo: [

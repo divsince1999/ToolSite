@@ -2,7 +2,7 @@ export default {
     title: 'Random Number Generator',
     shortName: 'Number Gen',
     seoTitle: 'Random Number Generator - Instant Randomizer',
-    seoDescription: 'Generate random numbers within any range instantly. Perfect for games, testing, and math experiments for students and developers.',
+    seoDescription: 'Generate random numbers within any range instantly. Perfect for games, testing, and math experiments for students and developers. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Generate random numbers within a custom range instantly for games, testing, simulations, and decision-making.',
     content: {
         howTo: [

@@ -2,7 +2,7 @@ export default {
     title: 'Remove Extra Spaces',
     shortName: 'Space Remover',
     seoTitle: 'Remove Extra Spaces - Clean Text Formatting Tool',
-    seoDescription: 'Clean your text instantly by removing unnecessary spaces and double gaps. Perfect for formatting code, emails, and academic papers.',
+    seoDescription: 'Clean your text instantly by removing unnecessary spaces and double gaps. Perfect for formatting code, emails, and academic papers. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Clean your text by removing extra spaces, duplicate spaces, and unwanted gaps instantly.',
     content: {
         howTo: [

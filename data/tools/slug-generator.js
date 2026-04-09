@@ -2,7 +2,7 @@ export default {
     title: 'Slug Generator',
     shortName: 'Slug Gen',
     seoTitle: 'Slug Generator - Create SEO Friendly URL Slugs',
-    seoDescription: 'Convert text into clean, SEO-friendly URL slugs instantly. Improve your website visibility and readability with our free online tool.',
+    seoDescription: 'Convert text into clean, SEO-friendly URL slugs instantly. Improve your website visibility and readability with our free online tool. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Convert text into clean, SEO-friendly URL slugs to improve readability and search engine visibility.',
     content: {
         howTo: [

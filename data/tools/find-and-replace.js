@@ -2,7 +2,7 @@ const findReplace = {
     title: 'Find and Replace Text',
     shortName: 'Find & Replace',
     seoTitle: 'Find and Replace Text - Professional Text Editing',
-    seoDescription: 'Find and replace specific words or phrases in your text instantly. Save time on large-scale text edits with our free online tool.',
+    seoDescription: 'Find and replace specific words or phrases in your text instantly. Save time on large-scale text edits with our free online tool. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Quickly find specific words or phrases in your text and replace them instantly. Free online find and replace tool.',
     content: {
         howTo: [

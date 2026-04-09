@@ -2,7 +2,7 @@ export default {
     title: 'HEX to RGB Converter',
     shortName: 'HEX to RGB',
     seoTitle: 'HEX to RGB Converter - Instant Color Code Translation',
-    seoDescription: 'Convert hexadecimal color codes to RGB format instantly. Free online HEX to RGB translator with live color preview for designers.',
+    seoDescription: 'Convert hexadecimal color codes to RGB format instantly. Free online HEX to RGB translator with live color preview for designers. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Convert hexadecimal color codes to RGB format instantly. Free online HEX to RGB translator with live color preview.',
     content: {
         howTo: [

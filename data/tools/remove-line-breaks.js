@@ -2,7 +2,7 @@ export default {
     title: 'Remove Line Breaks',
     shortName: 'Line Break Remover',
     seoTitle: 'Remove Line Breaks - Clean Paragraph Formatting',
-    seoDescription: 'Eliminate unwanted line breaks and merge text into clean paragraphs instantly. Ideal for cleaning text from PDFs and emails.',
+    seoDescription: 'Eliminate unwanted line breaks and merge text into clean paragraphs instantly. Ideal for cleaning text from PDFs and emails. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Remove unwanted line breaks and convert text into a clean, continuous paragraph instantly.',
     content: {
         howTo: [

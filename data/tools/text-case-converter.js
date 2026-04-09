@@ -2,7 +2,7 @@ export default {
     title: 'Text Case Converter',
     shortName: 'Case Converter',
     seoTitle: 'Text Case Converter - Instant Uppercase & Lowercase',
-    seoDescription: 'Convert text between uppercase, lowercase, title case, and sentence case instantly. Professional tool for consistent text formatting.',
+    seoDescription: 'Convert text between uppercase, lowercase, title case, and sentence case instantly. Professional tool for consistent text formatting. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Convert text between uppercase, lowercase, title case, and sentence case instantly for consistent formatting.',
     content: {
         howTo: [

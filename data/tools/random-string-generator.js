@@ -2,7 +2,7 @@ export default {
     title: 'Random String Generator',
     shortName: 'String Gen',
     seoTitle: 'Random String Generator - Custom String Creator',
-    seoDescription: 'Generate random strings for passwords, tokens, and testing. Highly customizable tool for developers and security specialists.',
+    seoDescription: 'Generate random strings for passwords, tokens, and testing. Highly customizable tool for developers and security specialists. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Generate random strings for passwords, tokens, testing, and secure applications instantly.',
     content: {
         howTo: [

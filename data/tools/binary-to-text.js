@@ -2,7 +2,7 @@ export default {
     title: 'Binary to Text Converter',
     shortName: 'Binary to Text',
     seoTitle: 'Binary to Text Converter - Decipher Binary Code',
-    seoDescription: 'Convert binary code back into human-readable text instantly. Free online binary translator for developers and students.',
+    seoDescription: 'Convert binary code back into human-readable text instantly. Free online binary translator for developers and students. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Convert binary code (0s and 1s) back into human-readable text instantly.',
     content: {
         howTo: [

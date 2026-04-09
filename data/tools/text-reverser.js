@@ -2,7 +2,7 @@ export default {
     title: 'Text Reverser',
     shortName: 'Text Reverser',
     seoTitle: 'Text Reverser - Instant Backwards Text Converter',
-    seoDescription: 'Reverse text instantly by flipping characters, words, or sentences. Perfect for mirror text, passwords, and fun formatting.',
+    seoDescription: 'Reverse text instantly by flipping characters, words, or sentences. Perfect for mirror text, passwords, and fun formatting. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Reverse text instantly by flipping characters, words, or entire sentences for fun or testing purposes.',
     content: {
         howTo: [

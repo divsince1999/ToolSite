@@ -2,7 +2,7 @@ const wordCounter = {
     title: 'Word Counter',
     shortName: 'Word Counter',
     seoTitle: 'Word Counter - Free Online Text Analysis',
-    seoDescription: 'Count words and characters instantly with our professional-grade word counter. Perfect for authors, students, and SEO specialists.',
+    seoDescription: 'Count words and characters instantly with our professional-grade word counter. Perfect for authors, students, and SEO specialists. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Free online word counter with real-time word, character, sentence, and paragraph counting.',
     content: {
         howTo: [

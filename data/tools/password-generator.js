@@ -2,7 +2,7 @@ export default {
     title: 'Password Generator',
     shortName: 'Password Gen',
     seoTitle: 'Secure Password Generator - Protect Your Accounts',
-    seoDescription: 'Create strong, random, and secure passwords instantly. Stay safe online with our customizable password generation tool.',
+    seoDescription: 'Create strong, random, and secure passwords instantly. Stay safe online with our customizable password generation tool. 100% private — no data saved. All processing is done locally in your browser.',
     description: 'Create strong, secure, and random passwords instantly to protect your online accounts from hacking and unauthorized access.',
     content: {
         howTo: [
