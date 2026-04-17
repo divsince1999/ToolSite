@@ -167,7 +167,7 @@ export async function renderToolLayout(slug, data, toolsData) {
             const rel = toolsData[relSlug];
             if (!rel) return '';
             return `
-            <a href="${relSlug}.html" class="card">
+            <a href="${relSlug}" class="card">
                 <h3>${rel.title}</h3>
                 <p class="text-muted mt-sm">${rel.description}</p>
                 <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">Open ${rel.title} &rarr;</div>
@@ -199,7 +199,7 @@ export async function renderToolLayout(slug, data, toolsData) {
     let breadcrumbHtml = `
         <nav aria-label="breadcrumb" class="container mt-md" style="margin-top: 1rem;">
             <p class="text-muted" style="font-size: 0.9rem;">
-                <a href="../index.html" style="color: var(--primary); text-decoration: none;">Home</a> > 
+                <a href="../index" style="color: var(--primary); text-decoration: none;">Home</a> > 
                 ${categoryName} > 
                 <strong>${data.title}</strong>
             </p>
@@ -226,7 +226,7 @@ export async function renderToolLayout(slug, data, toolsData) {
                     <!-- Privacy Badge -->
                     <div style="margin-top: 1rem; padding: 0.75rem 1rem; background: rgba(99,102,241,0.06); border: 1px solid rgba(99,102,241,0.2); border-radius: 8px; display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; color: var(--text-muted);">
                         <span style="font-size: 1.1rem;">🔒</span>
-                        <span><strong style="color: var(--text-main);">Privacy Guarantee:</strong> Your data is processed locally and never leaves your device. No data is saved or sent to any server. <a href="../privacy.html" style="color: var(--primary); text-decoration: none;">Learn more</a></span>
+                        <span><strong style="color: var(--text-main);">Privacy Guarantee:</strong> Your data is processed locally and never leaves your device. No data is saved or sent to any server. <a href="../privacy" style="color: var(--primary); text-decoration: none;">Learn more</a></span>
                     </div>
                 </div>
             </div>
