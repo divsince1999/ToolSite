@@ -2,89 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage -->
     <url>
-        <loc>https://toolbox.example.com/index.html</loc>
+        <loc>https://toolsnippet.com/index.html</loc>
         <priority>1.0</priority>
     </url>
 
     <!-- Tools -->
     <url>
-        <loc>https://toolbox.example.com/tools/text-case-converter.html</loc>
+        <loc>https://toolsnippet.com/tools/text-case-converter.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/word-counter.html</loc>
+        <loc>https://toolsnippet.com/tools/word-counter.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/remove-extra-spaces.html</loc>
+        <loc>https://toolsnippet.com/tools/remove-extra-spaces.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/character-counter.html</loc>
+        <loc>https://toolsnippet.com/tools/character-counter.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/text-sorter.html</loc>
+        <loc>https://toolsnippet.com/tools/text-sorter.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/find-and-replace.html</loc>
+        <loc>https://toolsnippet.com/tools/find-and-replace.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/password-generator.html</loc>
+        <loc>https://toolsnippet.com/tools/password-generator.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/random-number-generator.html</loc>
+        <loc>https://toolsnippet.com/tools/random-number-generator.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/random-string-generator.html</loc>
+        <loc>https://toolsnippet.com/tools/random-string-generator.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/lorem-ipsum.html</loc>
+        <loc>https://toolsnippet.com/tools/lorem-ipsum.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/url-encoder-decoder.html</loc>
+        <loc>https://toolsnippet.com/tools/url-encoder-decoder.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/base64-encoder-decoder.html</loc>
+        <loc>https://toolsnippet.com/tools/base64-encoder-decoder.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/text-reverser.html</loc>
+        <loc>https://toolsnippet.com/tools/text-reverser.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/remove-line-breaks.html</loc>
+        <loc>https://toolsnippet.com/tools/remove-line-breaks.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/slug-generator.html</loc>
+        <loc>https://toolsnippet.com/tools/slug-generator.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/text-to-binary.html</loc>
+        <loc>https://toolsnippet.com/tools/text-to-binary.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/binary-to-text.html</loc>
+        <loc>https://toolsnippet.com/tools/binary-to-text.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/hex-to-rgb.html</loc>
+        <loc>https://toolsnippet.com/tools/hex-to-rgb.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/json-to-csv.html</loc>
+        <loc>https://toolsnippet.com/tools/json-to-csv.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://toolbox.example.com/tools/csv-to-json.html</loc>
+        <loc>https://toolsnippet.com/tools/csv-to-json.html</loc>
         <priority>0.8</priority>
     </url>
 </urlset>
