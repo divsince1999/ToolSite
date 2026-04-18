@@ -3,9 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toolbox - All-in-One Online Utilities</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>ToolSnippet - All-in-One Online Utilities</title>
     <meta name="description"
         content="A collection of fast, free, and simple online tools for everyday tasks. No login required.">
     <link rel="stylesheet" href="css/global.css">
@@ -14,7 +22,7 @@
 <body>
     <header class="nav-header">
         <div class="container nav-container">
-            <a href="index" class="logo">Tool<span>Box</span></a>
+            <a href="index" class="logo"><img src="./images/site-logo.png" alt="ToolSnippet"></a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index" class="nav-link">Home</a></li>
@@ -29,11 +37,11 @@
         <section class="section">
             <div class="container text-center">
                 <div class="content-readable">
-                    <h1>Powerful Tools, <span style="color: var(--primary);">Simplified.</span></h1>
+                    <h1>Powerful Tools, <span class="text-primary">Simplified.</span></h1>
                     <p class="text-muted">Fast, secure, and free online utilities for developers, writers, and digital
                         professionals. No registration, no ads, just tools.</p>
 
-                    <div class="mt-md" style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+                    <div class="mt-md" class="flex-center-wrap">
                         <span class="trust-badge">✓ Free & Easy</span>
                         <span class="trust-badge">✓ No Signup</span>
                         <span class="trust-badge">✓ 100% Private</span>
@@ -47,8 +55,7 @@
         </section>
 
         <!-- Tools Grid Section -->
-        <section id="tools" class="section"
-            style="background-color: #ffffff; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+        <section id="tools" class="section section-bordered">
             <div class="container">
                 <h2 class="text-center mb-lg">Available Tools</h2>
                 <div class="tool-grid">
@@ -56,7 +63,7 @@
                     <a href="tools/text-case-converter" class="card">
                         <h3>Text Case Converter</h3>
                         <p class="text-muted mt-sm">Quickly change the casing of your text online.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Text Case Converter &rarr;
                         </div>
                     </a>
@@ -65,7 +72,7 @@
                     <a href="tools/word-counter" class="card">
                         <h3>Word Counter</h3>
                         <p class="text-muted mt-sm">Real-time word and character counting for your content.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Word Counter &rarr;
                         </div>
                     </a>
@@ -74,7 +81,7 @@
                     <a href="tools/remove-extra-spaces" class="card">
                         <h3>Remove Extra Spaces</h3>
                         <p class="text-muted mt-sm">Clean up text by removing multiple spaces and extra breaks.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Remove Extra Spaces &rarr;
                         </div>
                     </a>
@@ -83,7 +90,7 @@
                     <a href="tools/character-counter" class="card">
                         <h3>Character Counter</h3>
                         <p class="text-muted mt-sm">Live character, word, and sentence counting with reading time.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Character Counter &rarr;
                         </div>
                     </a>
@@ -92,7 +99,7 @@
                     <a href="tools/text-sorter" class="card">
                         <h3>Text Sorter</h3>
                         <p class="text-muted mt-sm">Sort lines alphabetically, numerically, or remove duplicates.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Text Sorter &rarr;
                         </div>
                     </a>
@@ -101,7 +108,7 @@
                     <a href="tools/find-and-replace" class="card">
                         <h3>Find and Replace</h3>
                         <p class="text-muted mt-sm">Quickly find and replace words or phrases in your text.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Find and Replace &rarr;
                         </div>
                     </a>
@@ -110,7 +117,7 @@
                     <a href="tools/password-generator" class="card">
                         <h3>Password Generator</h3>
                         <p class="text-muted mt-sm">Generate secure random passwords instantly.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Password Generator &rarr;
                         </div>
                     </a>
@@ -119,7 +126,7 @@
                     <a href="tools/random-number-generator" class="card">
                         <h3>Random Number Generator</h3>
                         <p class="text-muted mt-sm">Generate random numbers within a custom range.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Random Number Generator &rarr;
                         </div>
                     </a>
@@ -128,7 +135,7 @@
                     <a href="tools/random-string-generator" class="card">
                         <h3>Random String Generator</h3>
                         <p class="text-muted mt-sm">Create randomized text strings for testing.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Random String Generator &rarr;
                         </div>
                     </a>
@@ -137,7 +144,7 @@
                     <a href="tools/lorem-ipsum" class="card">
                         <h3>Lorem Ipsum Generator</h3>
                         <p class="text-muted mt-sm">Generate placeholder text for design testing.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Lorem Ipsum Generator &rarr;
                         </div>
                     </a>
@@ -146,7 +153,7 @@
                     <a href="tools/url-encoder-decoder" class="card">
                         <h3>URL Encoder / Decoder</h3>
                         <p class="text-muted mt-sm">Encode or decode URLs instantly.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open URL Encoder / Decoder &rarr;
                         </div>
                     </a>
@@ -155,7 +162,7 @@
                     <a href="tools/base64-encoder-decoder" class="card">
                         <h3>Base64 Encoder / Decoder</h3>
                         <p class="text-muted mt-sm">Encode or decode Base64 text instantly.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Base64 Encoder / Decoder &rarr;
                         </div>
                     </a>
@@ -164,7 +171,7 @@
                     <a href="tools/text-reverser" class="card">
                         <h3>Text Reverser</h3>
                         <p class="text-muted mt-sm">Reverse any text string instantly.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Text Reverser &rarr;
                         </div>
                     </a>
@@ -173,7 +180,7 @@
                     <a href="tools/remove-line-breaks" class="card">
                         <h3>Remove Line Breaks</h3>
                         <p class="text-muted mt-sm">Convert multi-line text into a single line.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Remove Line Breaks &rarr;
                         </div>
                     </a>
@@ -182,7 +189,7 @@
                     <a href="tools/slug-generator" class="card">
                         <h3>Slug Generator</h3>
                         <p class="text-muted mt-sm">Generate SEO-friendly URL slugs from text.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Slug Generator &rarr;
                         </div>
                     </a>
@@ -191,7 +198,7 @@
                     <a href="tools/text-to-binary" class="card">
                         <h3>Text to Binary</h3>
                         <p class="text-muted mt-sm">Convert plain text into its binary representation.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Text to Binary &rarr;
                         </div>
                     </a>
@@ -200,7 +207,7 @@
                     <a href="tools/binary-to-text" class="card">
                         <h3>Binary to Text</h3>
                         <p class="text-muted mt-sm">Decode binary code back into readable text.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open Binary to Text &rarr;
                         </div>
                     </a>
@@ -209,7 +216,7 @@
                     <a href="tools/hex-to-rgb" class="card">
                         <h3>HEX to RGB</h3>
                         <p class="text-muted mt-sm">Convert HEX color codes to RGB with live preview.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open HEX to RGB &rarr;
                         </div>
                     </a>
@@ -218,7 +225,7 @@
                     <a href="tools/json-to-csv" class="card">
                         <h3>JSON to CSV</h3>
                         <p class="text-muted mt-sm">Convert structured JSON data into CSV format.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open JSON to CSV &rarr;
                         </div>
                     </a>
@@ -227,13 +234,13 @@
                     <a href="tools/csv-to-json" class="card">
                         <h3>CSV to JSON</h3>
                         <p class="text-muted mt-sm">Transform CSV data into structured JSON format.</p>
-                        <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">
+                        <div class="card-link-text">
                             Open CSV to JSON &rarr;
                         </div>
                     </a>
 
                     <!-- Placeholder for Future Tools -->
-                    <div class="card" style="border-style: dashed; opacity: 0.6; cursor: default;">
+                    <div class="card card-placeholder">
                         <h3>More Coming Soon</h3>
                         <p class="text-muted mt-sm">We are constantly adding new tools to help you work better.</p>
                     </div>
@@ -251,32 +258,41 @@
         </section> -->
     </main>
 
-    <footer class="footer" style="padding: 3rem 0; background-color: var(--bg-card); border-top: 1px solid var(--border);">
-        <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: left;">
+    <footer class="footer footer-main">
+        <div class="container footer-grid">
             <div>
-                <a href="index" class="logo" style="margin-bottom: 1rem; display: inline-block;">Tool<span>Box</span></a>
-                <p class="text-muted" style="font-size: 0.9rem;">Modern utilities built with Vanilla JS & Standardized Design. Fast, secure, and free online utilities.</p>
+                <a href="index" class="logo"><img src="./images/site-logo.png" alt="ToolSnippet"></a>
+                <p class="text-muted text-sm">Modern utilities built with Vanilla JS & Standardized
+                    Design. Fast, secure, and free online utilities.</p>
             </div>
             <div>
-                <h3 style="margin-bottom: 1rem; font-size: 1.1rem;">Quick Links</h3>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: 0.5rem;"><a href="tools/word-counter" style="color: var(--text-muted); text-decoration: none;">Word Counter</a></li>
-                    <li style="margin-bottom: 0.5rem;"><a href="tools/password-generator" style="color: var(--text-muted); text-decoration: none;">Password Generator</a></li>
-                    <li style="margin-bottom: 0.5rem;"><a href="tools/text-case-converter" style="color: var(--text-muted); text-decoration: none;">Text Case Converter</a></li>
-                    <li style="margin-bottom: 0.5rem;"><a href="tools/slug-generator" style="color: var(--text-muted); text-decoration: none;">Slug Generator</a></li>
-                    <li style="margin-bottom: 0.5rem;"><a href="tools/json-to-csv" style="color: var(--text-muted); text-decoration: none;">JSON to CSV</a></li>
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="tools/word-counter"
+                            class="footer-link">Word Counter</a></li>
+                    <li><a href="tools/password-generator"
+                            class="footer-link">Password Generator</a></li>
+                    <li><a href="tools/text-case-converter"
+                            class="footer-link">Text Case Converter</a></li>
+                    <li><a href="tools/slug-generator"
+                            class="footer-link">Slug Generator</a></li>
+                    <li><a href="tools/json-to-csv"
+                            class="footer-link">JSON to CSV</a></li>
                 </ul>
             </div>
             <div>
-                <h3 style="margin-bottom: 1rem; font-size: 1.1rem;">Legal</h3>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: 0.5rem;"><a href="privacy" style="color: var(--text-muted); text-decoration: none;">Privacy Policy</a></li>
-                    <li><a href="#tools" style="color: var(--primary); text-decoration: none; font-weight: 600;">View All Tools &rarr;</a></li>
+                <h3 class="footer-heading">Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="privacy"
+                            class="footer-link">Privacy Policy</a></li>
+                    <li><a href="#tools" class="footer-link-highlight">View
+                            All Tools &rarr;</a></li>
                 </ul>
             </div>
         </div>
-        <div class="container text-center" style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
-            <p class="text-muted" style="font-size: 0.85rem;">&copy; 2026 ToolBox. All rights reserved. &nbsp;|&nbsp; <a href="privacy" style="color: var(--text-muted);">Privacy Policy</a></p>
+        <div class="text-center footer-bottom">
+            <p class="text-muted footer-bottom-text">&copy; 2026 ToolBox. All rights reserved. &nbsp;|&nbsp; <a
+                    href="privacy" class="footer-link">Privacy Policy</a></p>
         </div>
     </footer>
 

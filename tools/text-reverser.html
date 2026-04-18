@@ -3,105 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../images/site.webmanifest">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Text Reverser - Instant Backwards Text Converter</title>
-    <meta name="description" content="Reverse text instantly by flipping characters, words, or sentences. Perfect for mirror text, passwords, and fun formatting. 100% private — no data saved. All processing is done locally in your browser.">
+    <meta name="description"
+        content="Reverse text instantly by flipping characters, words, or sentences. Perfect for mirror text, passwords, and fun formatting. 100% private — no data saved. All processing is done locally in your browser.">
     <link rel="canonical" href="https://divsince1999.github.io/ToolSite/tools/text-reverser" id="canonical-link">
     <!-- Open Graph tags for social media -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="">
     <meta property="og:description" content="">
     <meta property="og:url" content="">
-    <style>
-        :root {
-            --primary: #6366f1;
-            --primary-hover: #4f46e5;
-            --bg-main: #f8fafc;
-            --bg-card: #ffffff;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
-            --border: #e2e8f0;
-            --radius-standard: 12px;
-            --container-max: 1200px;
-            --container-padding: clamp(16px, 4vw, 32px);
-            --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1);
-            --font-h1: clamp(24px, 4vw, 42px);
-            --font-body: clamp(15px, 1.2vw, 17px);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: var(--bg-main);
-            color: var(--text-main);
-            line-height: 1.6;
-            font-size: var(--font-body);
-        }
-
-        .container {
-            width: 100%;
-            max-width: var(--container-max);
-            margin: 0 auto;
-            padding: 0 var(--container-padding);
-        }
-
-        .nav-header {
-            background-color: var(--bg-card);
-            border-bottom: 1px solid var(--border);
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .nav-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            text-decoration: none;
-        }
-
-        .logo span {
-            color: var(--text-main);
-        }
-
-        .section {
-            padding: clamp(40px, 6vw, 80px) 0;
-        }
-
-        h1 {
-            font-size: var(--font-h1);
-            font-weight: 800;
-            line-height: 1.1;
-            margin-bottom: 1.5rem;
-        }
-
-        .text-center {
-            text-align: center;
-        }
-
-        .text-muted {
-            color: var(--text-muted);
-        }
-
-        #app {
-            min-height: 500px;
-        }
-    </style>
+    
 
     <!-- Non-blocking Link Loading -->
     <link rel="stylesheet" href="../css/global.css" media="print" onload="this.media='all'">
@@ -123,10 +44,11 @@
 
     <div id="header"></div>
     <div id="app">
-        
+
         <noscript>
             <div class="container text-center section">
-                <p>Reverse text instantly by flipping characters, words, or entire sentences for fun or testing purposes.</p>
+                <p>Reverse text instantly by flipping characters, words, or entire sentences for fun or testing
+                    purposes.</p>
                 <p>Please enable JavaScript to use the Text Reverser tool.</p>
             </div>
         </noscript>

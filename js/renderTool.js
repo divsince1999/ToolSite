@@ -153,7 +153,7 @@ export async function renderToolLayout(slug, data, toolsData) {
             console.error('Error loading tool UI:', e);
             // Fallback for tools not yet migrated or network errors
             uiHtml = data.uiTemplate || `
-                <div class="card p-lg text-center" style="border: 2px dashed var(--border);">
+                <div class="card p-lg text-center card-error">
                     <p class="text-muted"><strong>Error:</strong> Failed to load the tool interface.</p>
                     <button class="btn btn-outline mt-md" id="btn-retry-load">Retry Connection</button>
                 </div>`;
@@ -170,7 +170,7 @@ export async function renderToolLayout(slug, data, toolsData) {
             <a href="${relSlug}" class="card">
                 <h3>${rel.title}</h3>
                 <p class="text-muted mt-sm">${rel.description}</p>
-                <div class="mt-md" style="color: var(--primary); font-weight: 700; font-size: 0.9rem;">Open ${rel.title} &rarr;</div>
+                <div class="card-link-text">Open ${rel.title} &rarr;</div>
             </a>`;
         }).join('');
         relatedHtml = `
@@ -186,7 +186,7 @@ export async function renderToolLayout(slug, data, toolsData) {
     const faqHtml = renderFAQ(data.faq);
     const seoHtml = `
         <section class="section seo-section">
-            <div class="seo-container">
+            <div class="container">
                 ${data.about ? `<div class="seo-card"><h2>About This Tool</h2>${data.about}</div>` : ''}
                 ${data.how ? `<div class="seo-card"><h2>How to Use This Tool</h2>${data.how}</div>` : ''}
                 ${data.why ? `<div class="seo-card"><h2>Why Use This Tool</h2>${data.why}</div>` : ''}
@@ -197,9 +197,9 @@ export async function renderToolLayout(slug, data, toolsData) {
     // 7. Mount to App root
     let categoryName = data.category || 'Utilities';
     let breadcrumbHtml = `
-        <nav aria-label="breadcrumb" class="container mt-md" style="margin-top: 1rem;">
-            <p class="text-muted" style="font-size: 0.9rem;">
-                <a href="../index" style="color: var(--primary); text-decoration: none;">Home</a> > 
+        <nav aria-label="breadcrumb" class="container mt-md breadcrumb-nav">
+            <p class="text-muted breadcrumb-text">
+                <a href="../index" class="breadcrumb-link">Home</a> > 
                 ${categoryName} > 
                 <strong>${data.title}</strong>
             </p>
@@ -224,9 +224,9 @@ export async function renderToolLayout(slug, data, toolsData) {
                         ${uiHtml}
                     </div>
                     <!-- Privacy Badge -->
-                    <div style="margin-top: 1rem; padding: 0.75rem 1rem; background: rgba(99,102,241,0.06); border: 1px solid rgba(99,102,241,0.2); border-radius: 8px; display: flex; align-items: center; gap: 0.6rem; font-size: 0.85rem; color: var(--text-muted);">
-                        <span style="font-size: 1.1rem;">🔒</span>
-                        <span><strong style="color: var(--text-main);">Privacy Guarantee:</strong> Your data is processed locally and never leaves your device. No data is saved or sent to any server. <a href="../privacy" style="color: var(--primary); text-decoration: none;">Learn more</a></span>
+                    <div class="privacy-badge">
+                        <span class="privacy-icon">🔒</span>
+                        <span><strong class="privacy-text-main">Privacy Guarantee:</strong> Your data is processed locally and never leaves your device. No data is saved or sent to any server. <a href="../privacy" class="breadcrumb-link">Learn more</a></span>
                     </div>
                 </div>
             </div>
